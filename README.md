@@ -1,5 +1,5 @@
 # Multi-Cue Correlation Tracker
-Code for the tracker in the paper **Multi-Cue Correlation Filters for Robust Visual Tracking**, by Ning Wang, Wengang Zhou, Tian Qi and Houqiang Li - appeared in CVPR 2018.
+Code for the tracker in the paper **Multi-Cue Correlation Filters for Robust Visual Tracking**, by Ning Wang, Wengang Zhou et. al - to appear in CVPR 2018.
 
 For the MCCT-H tracker, just start Matlab and run the runTracker.m. To run the MCCT tracker with deep features, please download the VGG-19 and compile the Matconvnet following the description in README (in MCCT/model/).
 
@@ -15,8 +15,7 @@ If you find MCCT useful in your research, please consider citing:
  - gradientMex and mexResize have been compiled and tested for Ubuntu and Windows 8 (64 bit). You can easily recompile the sources in case of need.
 
 ### Acknowledgments
-Many parts of this code are adopted from previous works (Staple, HCF, DSST).
+Many parts of this code are adopted from previous works (Staple, HCF).
 - L. Bertinetto, J. Valmadre, S. Golodetz, O. Miksik, and P. Torr. Staple: Complementary learners for real-time tracking. In CVPR, 2016.
 - C. Ma, J.-B. Huang, X. Yang, and M.-H. Yang. Hierarchical convolutional features for visual tracking. In ICCV, 2015.
-- M. Danelljan, G. Hager, F. Khan, and M. Felsberg. Accurate scale estimation for robust visual tracking. In BMVC, 2014.
 
