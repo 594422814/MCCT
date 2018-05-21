@@ -4,11 +4,17 @@ Code for the tracker in the paper **Multi-Cue Correlation Filters for Robust Vis
 For the MCCT-H tracker, just start Matlab and run the runTracker.m. To run the MCCT tracker with deep features, please download the VGG-19 and compile the Matconvnet following the description in README (in MCCT/model/).
 
 ### Contacts
-For questions about the code or the paper, feel free contact us.
+For questions about the code or paper, feel free to contact us.
 
 ### Citing
 If you find MCCT useful in your research, please consider citing:
 ```
+@InProceedings{DanelljanCVPR2017,  
+	Title                    = {Multi-Cue Correlation Filters for Robust Visual Tracking},  
+	Author                   = {Ning Wang, Wengang Zhou, Qi Tian, Richang Hong, Meng Wang, Houqiang Li},  
+	Booktitle                = {CVPR},  
+	Year                     = {2018}  
+}
 ```
 ### Prerequisites
  - The code is mostly in MATLAB, except the workhorse of `fhog.m`, which is written in C and comes from Piotr Dollar toolbox http://vision.ucsd.edu/~pdollar/toolbox
