@@ -9,7 +9,7 @@ For questions about the code or paper, feel free to contact us.
 ### Citing
 If you find MCCT useful in your research, please consider citing:
 ```
-@InProceedings{DanelljanCVPR2017,  
+@InProceedings{NingCVPR2018,  
 	Title                    = {Multi-Cue Correlation Filters for Robust Visual Tracking},  
 	Author                   = {Ning Wang, Wengang Zhou, Qi Tian, Richang Hong, Meng Wang, Houqiang Li},  
 	Booktitle                = {CVPR},  
@@ -17,11 +17,13 @@ If you find MCCT useful in your research, please consider citing:
 }
 ```
 ### Prerequisites
+ - The VGG-19 model is available at http://www.vlfeat.org/matconvnet/pretrained/.
+ - The Matconvnet is available at https://github.com/vlfeat/matconvnet.
  - The code is mostly in MATLAB, except the workhorse of `fhog.m`, which is written in C and comes from Piotr Dollar toolbox http://vision.ucsd.edu/~pdollar/toolbox
  - gradientMex and mexResize have been compiled and tested for Ubuntu and Windows 8 (64 bit). You can easily recompile the sources in case of need.
 
 ### Acknowledgments
-Many parts of this code are adopted from previous works (Staple, HCF).
+Some codes of this work are adopted from previous trackers (Staple, HCF).
 - L. Bertinetto, J. Valmadre, S. Golodetz, O. Miksik, and P. Torr. Staple: Complementary learners for real-time tracking. In CVPR, 2016.
 - C. Ma, J.-B. Huang, X. Yang, and M.-H. Yang. Hierarchical convolutional features for visual tracking. In ICCV, 2015.
 
