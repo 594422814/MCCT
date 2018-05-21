@@ -1,5 +1,5 @@
 # Multi-Cue Correlation Tracker
-Code for the tracker in the paper **Multi-Cue Correlation Filters for Robust Visual Tracking**, by Ning Wang, Wengang Zhou et. al - to appear in CVPR 2018.
+Code for the tracker in the paper **Multi-Cue Correlation Filters for Robust Visual Tracking**, by Ning Wang, Wengang Zhou et. al - to appear in CVPR 2018. In this work, we propose to utilize multiple weak experts for online tracking. Our efficient framework achieves state-of-the-art performance just using simple and standard DCFs!  
 
 For the MCCT-H tracker, just start Matlab and run the runTracker.m. To run the MCCT tracker with deep features, please download the VGG-19 and compile the Matconvnet following the description in README (in MCCT/model/).
 
