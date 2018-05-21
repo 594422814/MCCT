@@ -1,7 +1,7 @@
 # Multi-Cue Correlation Tracker 
 Code for tracker in the paper **Multi-Cue Correlation Filters for Robust Visual Tracking**, by Ning Wang, Wengang Zhou et. al - to appear in CVPR 2018. 
 
-In this work, we propose to utilize multiple weak experts for online tracking. Our efficient framework achieves state-of-the-art performance just using simple and standard DCFs! 
+In this work, we propose to utilize multiple weak experts for online tracking. Our efficient framework achieves state-of-the-art performance just using standard DCFs ! 
 
 ### Contacts
 For questions about the code or paper, please feel free to contact me: wn6149@mail.ustc.edu.cn
